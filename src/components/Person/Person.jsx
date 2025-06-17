@@ -3,7 +3,7 @@ export const Person = ({ person }) => {
   let partnerText = null;
 
   if (isMarried && partnerName) {
-    partnerText = `${partnerName} is my ${sex === 'm' ? 'wife' : 'husband'}`;
+    partnerText = `${partnerName} is my ${sex === 'f' ? 'husband' : 'wife'}`;
   } else {
     partnerText = 'I am not married';
   }
